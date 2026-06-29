@@ -250,6 +250,75 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 148680882}
   m_Mesh: {fileID: 8314613897149603259, guid: 1712e013c7c2d4169b7e9bfb5a2d8c84, type: 3}
+--- !u!1001 &198141987
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 27643dd7820b83e438cceaabcec8a2cf, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.07231361
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 27643dd7820b83e438cceaabcec8a2cf, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.07231361
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 27643dd7820b83e438cceaabcec8a2cf, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.07231361
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 27643dd7820b83e438cceaabcec8a2cf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 27643dd7820b83e438cceaabcec8a2cf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.00000022000654
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 27643dd7820b83e438cceaabcec8a2cf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.13
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 27643dd7820b83e438cceaabcec8a2cf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.17207165
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 27643dd7820b83e438cceaabcec8a2cf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 27643dd7820b83e438cceaabcec8a2cf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.9850845
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 27643dd7820b83e438cceaabcec8a2cf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 27643dd7820b83e438cceaabcec8a2cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 27643dd7820b83e438cceaabcec8a2cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -160.183
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 27643dd7820b83e438cceaabcec8a2cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 27643dd7820b83e438cceaabcec8a2cf, type: 3}
+      propertyPath: m_Name
+      value: SimpleHouse
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 27643dd7820b83e438cceaabcec8a2cf, type: 3}
 --- !u!1 &389255504
 GameObject:
   m_ObjectHideFlags: 0
@@ -932,7 +1001,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MoveWithTriggers
   MovingObject: {fileID: 1024899209}
   movementSpeed: 3
-  triggerThreshold: 0.5
+  deadzone: 0.1
 --- !u!1 &1199920616
 GameObject:
   m_ObjectHideFlags: 0
@@ -1485,3 +1554,4 @@ SceneRoots:
   - {fileID: 1814709473}
   - {fileID: 586101241}
   - {fileID: 1024899209}
+  - {fileID: 198141987}
