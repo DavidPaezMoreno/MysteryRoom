@@ -1,34 +1,9 @@
 fileFormatVersion: 2
-guid: e8700322a9aab9a4483231a4292b6fe0
+guid: 00a7134ba6d8e7f42b8bda3caa29bf58
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Furnace_EntranceMat
-    second: {fileID: 2100000, guid: 97d8067f8b7ee5f4781d204baca1fb6c, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Furnace_FloorMat
-    second: {fileID: 2100000, guid: 29823ab9b655afa4887abfd00501962d, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Furnace_StripsMat
-    second: {fileID: 2100000, guid: 97d8067f8b7ee5f4781d204baca1fb6c, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Furnace_WallMat
-    second: {fileID: 2100000, guid: c0402c62f30e6e04e8dfff8842c6ea60, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Furnace_Wall_FieryMat
-    second: {fileID: 2100000, guid: 67cd2128fca26f74986f95e35bfc2f48, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
