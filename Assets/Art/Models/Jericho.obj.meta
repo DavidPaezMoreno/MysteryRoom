@@ -22,6 +22,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: MainWindowMat
+    second: {fileID: 2100000, guid: d93284c8d5cc9f0499e07dd538df5ca9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: WallMat
     second: {fileID: 2100000, guid: 3d5210e3d65792748b677831e7e7a73d, type: 2}
   - first:
