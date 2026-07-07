@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -8,6 +9,9 @@ public class RotateRoom : MonoBehaviour
 
 	[Tooltip("Ordered list of transforms to move the object through.")]
 	public Transform[] waypoints;
+
+	[Tooltip("Text to display the current waypoint index.")]
+	public TMPro.TextMeshProUGUI indexText;
 
 	[Tooltip("Minimum trigger value to register a press.")]
 	public float triggerThreshold = 0.5f;
@@ -19,6 +23,7 @@ public class RotateRoom : MonoBehaviour
     
     private InputAction actionButton;
     private InputAction backButton;
+	public Transform[] waypointsRandomized;
 
 	private void Awake()
 	{
@@ -28,10 +33,18 @@ public class RotateRoom : MonoBehaviour
 
         backButton = new InputAction("BackButton", InputActionType.Button, "<XRController>{RightHand}/secondaryButton");
         backButton.AddBinding("<Gamepad>/buttonSouth");
+		
+		// Deactivate all waypoints at the start
+		foreach (var waypoint in waypoints)
+		{
+			waypoint.gameObject.SetActive(false);
+		}	
 
-        if (waypoints == null || waypoints.Length == 0)
+		// Randomize the order of waypoints and move to the first one
+        if (waypoints == null || waypoints.Length > 0)
         {
-            player.position = waypoints[currentIndex].position;
+			waypointsRandomized = waypoints.ToList().OrderBy(x => Random.value).ToArray();
+            MoveToIndex(0);
         }
 	}
 
@@ -88,14 +101,22 @@ public class RotateRoom : MonoBehaviour
 
 	private void MoveToIndex(int targetIndex)
 	{
+		//Activate the room 
+		waypointsRandomized[currentIndex].gameObject.SetActive(false);
+		waypointsRandomized[targetIndex].gameObject.SetActive(true);
+
 		if (waypoints == null || waypoints.Length == 0) return;
 		if (targetIndex < 0 || targetIndex >= waypoints.Length) return;
 
-		Vector3 endPos = waypoints[targetIndex].position;
-		Quaternion endRot = waypoints[targetIndex].rotation;
+		Vector3 endPos = waypointsRandomized[targetIndex].position;
+		Quaternion endRot = waypointsRandomized[targetIndex].rotation;
 
 		player.position = endPos;
 		player.rotation = endRot;
 		currentIndex = targetIndex;
+
+		//Label the current room index based on the original order of waypoints
+		int currentRoomIndex = System.Array.IndexOf(waypoints, waypointsRandomized[currentIndex]);
+		indexText.text = $"No. {currentRoomIndex + 1}";
 	}
 }

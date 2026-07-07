@@ -17,6 +17,16 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: FootPrintDecal_2Mat
+    second: {fileID: 2100000, guid: 40b98598e01cc6443be8a2039819b6bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FootprintsDecla_1Mat
+    second: {fileID: 2100000, guid: 40b98598e01cc6443be8a2039819b6bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: LaceMat
     second: {fileID: 2100000, guid: ec920830e02f5934e9d291c118ef1f3c, type: 2}
   - first:

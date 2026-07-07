@@ -1,43 +1,3 @@
-MysteryRoom
-Rally Espiritual
--(Ricardo) Cuarto misterioso
--(David) Impostor
--(Caro) Alfabeto bìblico (preguntas donde las respuestas empiecen con a,b,c...)
--(Ana) Toma todo remix (toma todo con actividades diversas)
--(Betty) Teléfono descompuesto con señas
--(Roberta) Memorama (corriendo)
-
-
-Rally Deportivo
--(Valeria) Carrera de donas en la alberca (en la alberca de hombres)
--(Miguel) Arastrar gente para agarrar cosas o llegar a cosas (como los hipos glotones)
--(Kelly) Preguntas con castigo de caer a la alberca (en la alberca de mujeres)
--(Sarahi y Roberta) Didademas de vasos de agua acomodados de diferentes maneras (sacando agua de un contenedor en el piso).
--(Isaac) Proteger a la momia
--(Ana y Daniel) Arrastrarse sobre una lona mojada (estudo soldado) (pequeño ciruito)
-
-(Caro) Actividad de Integración:
--Instrucciones erroneas
--Adivinar la pregunta
--Juntamos al final para preguntar
-
-Actividad Espiritual
--Algo sobre la armadura.
-
-Actividad Recreativa
--Carrera de pecados
-    (Intrucciones)
-    -Corren en un circuito.
-    -Tienen listones.
-    -Alguien quita los listones (mujeres y hombres).
-    (PENDIENTE)
-    -Hacer algo que pudieran hacer mientras esperan o no.
-    -
-
--11 probar actividades
-
-
-
 [ o ] Arca (ventana en cuarto oscuro)
 [  ] Terraza de David con Betsabé 
 [ x ] Mesa con rollos y una estrella por la ventana (magos)
@@ -70,3 +30,6 @@ Actividad Recreativa
 [ o ] El Señor Jesús asando peces a la orilla del mar.
 [  ] El camino que desciende a Gaza.
 [  ] Plato con la cabeza de Juan el bautista 
+[  ] Horaca de Amán
+[  ] La cueva a los lejos con el trozo de la túnica de Saúl
+[  ] Lanza en la pared del palacio de Saul
