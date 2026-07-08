@@ -1,6 +1,6 @@
 [ o ] Arca (ventana en cuarto oscuro)
 [  ] Terraza de David con Betsabé 
-[ x ] Mesa con rollos y una estrella por la ventana (magos)
+[ o ] Mesa con rollos y una estrella por la ventana (magos)
 [  ] Joven muerto que se cayó del segundo piso
 [  ] Tela con animales
 [  ] Angel que se le apareció a Jacob (escalera al cielo)
@@ -9,7 +9,7 @@
 [  ] Tabernáculo/atrio
 [ o ] Marchando alrededor de Jericó 
 [ x ] El sacrificio de Abrahám 
-[ x ] División del mar rojo
+[ o ] División del mar rojo
 [  ] Escena del crimen de Cisara
 [ o ] El segundo día de la creación.
 [  ] Espadas vigilando el Edén 
