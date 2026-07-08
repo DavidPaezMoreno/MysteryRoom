@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6b2644def41a4fa44aea760beaac82b0
+guid: a570b6f2f0526f340bdb4a90509430b6
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
@@ -7,8 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: pSphere1Mat
-    second: {fileID: 2100000, guid: 0ef57afd175e7814eb1f8c216227fdf4, type: 2}
+      name: P_Wood_Stand_SimpleMat
+    second: {fileID: 2100000, guid: e3e1a20afbf0e3349bbaf4beb9935deb, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

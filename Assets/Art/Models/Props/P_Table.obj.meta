@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6b2644def41a4fa44aea760beaac82b0
+guid: cc5aab8041629a54289a1a42ec2808be
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
@@ -7,8 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: pSphere1Mat
-    second: {fileID: 2100000, guid: 0ef57afd175e7814eb1f8c216227fdf4, type: 2}
+      name: P_TableMat
+    second: {fileID: 2100000, guid: 9dfbea82d7e4d1141baed39292fa8610, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

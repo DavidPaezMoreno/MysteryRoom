@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6b2644def41a4fa44aea760beaac82b0
+guid: c33b8068fe942cc4ab40cae1698b31d0
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
@@ -7,8 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: pSphere1Mat
-    second: {fileID: 2100000, guid: 0ef57afd175e7814eb1f8c216227fdf4, type: 2}
+      name: P_Papyrus_FoldedMat
+    second: {fileID: 2100000, guid: 84a79701c14be6349b92fd893e90e8d4, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

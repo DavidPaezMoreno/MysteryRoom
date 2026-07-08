@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6b2644def41a4fa44aea760beaac82b0
+guid: 74ae4d9f574ce0147922b128502496de
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
@@ -7,8 +7,13 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: pSphere1Mat
-    second: {fileID: 2100000, guid: 0ef57afd175e7814eb1f8c216227fdf4, type: 2}
+      name: P_WavesMat
+    second: {fileID: 2100000, guid: d413be1014946e64c87ebf986cabdbdd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: P_Waves_FoamMat
+    second: {fileID: 2100000, guid: 7157863989872ca4b89fa665fd9dafbc, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

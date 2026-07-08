@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6b2644def41a4fa44aea760beaac82b0
+guid: 9f140cfaa824db6469521f20b5fef7c1
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
@@ -7,8 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: pSphere1Mat
-    second: {fileID: 2100000, guid: 0ef57afd175e7814eb1f8c216227fdf4, type: 2}
+      name: P_Room_Walls_01Mat
+    second: {fileID: 2100000, guid: c627373704e169d49b4c0720df125107, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

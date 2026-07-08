@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6b2644def41a4fa44aea760beaac82b0
+guid: cc49c839ca92df140aa709c26de05cb2
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
@@ -7,8 +7,13 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: pSphere1Mat
-    second: {fileID: 2100000, guid: 0ef57afd175e7814eb1f8c216227fdf4, type: 2}
+      name: P_SeaBottomMat
+    second: {fileID: 2100000, guid: 64ef6646b8e2dbb4c8c3daee613fe7ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: P_SeaBottom_FoodprintsMat
+    second: {fileID: 2100000, guid: 40b98598e01cc6443be8a2039819b6bb, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
