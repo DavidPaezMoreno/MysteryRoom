@@ -7,6 +7,7 @@
 [ o ] Carcel de Pablo y Silas
 [ o ] El Señor Jesús asando peces a la orilla del mar.
 [ x ] El sacrificio de Abrahám 
+[  ] Lecho del río Jordán con las doce piedras.
 [  ] Terraza de David con Betsabé 
 [  ] Joven muerto que se cayó del segundo piso
 [  ] Tela con animales
@@ -18,7 +19,6 @@
 [  ] Espadas vigilando el Edén 
 [  ] La tumba vacía
 [  ] El monte Sinaí (desde arriba, perspectiva de Moisés con las tablas agarradas).
-[  ] Lecho del río Jordán con las doce piedras.
 [  ] El naufragio de Pablo. (Que se vea la fogata. Como BioShock)
 [  ] El estanque de Betesda.
 [  ] Rebeca dando agua a los camellos.
