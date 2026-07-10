@@ -6,23 +6,22 @@
 [ o ] Horno de fuego
 [ o ] Carcel de Pablo y Silas
 [ o ] El Señor Jesús asando peces a la orilla del mar.
+[ x ] Casa donde bajaron al amigo.
+[ o ] Lecho del río Jordán con las doce piedras.
 [ x ] El sacrificio de Abrahám 
-[  ] Lecho del río Jordán con las doce piedras.
+[  ] Espadas vigilando el Edén 
 [  ] Terraza de David con Betsabé 
 [  ] Joven muerto que se cayó del segundo piso
-[  ] Tela con animales
 [  ] Angel que se le apareció a Jacob (escalera al cielo)
 [  ] Pedro andando en el mar
 [  ] El rico y Lázaro 
 [  ] Tabernáculo/atrio
 [  ] Escena del crimen de Cisara
-[  ] Espadas vigilando el Edén 
 [  ] La tumba vacía
 [  ] El monte Sinaí (desde arriba, perspectiva de Moisés con las tablas agarradas).
 [  ] El naufragio de Pablo. (Que se vea la fogata. Como BioShock)
 [  ] El estanque de Betesda.
 [  ] Rebeca dando agua a los camellos.
-[  ] Casa donde bajaron al amigo.
 [  ] Vs Goliat, visto desde el arroyo con ambos ejercitos a cada lado. 
 [  ] Pozo de los leones
 [  ] Sodoma y gomorra ya destruido (y la estatua de sal)
@@ -33,3 +32,4 @@
 [  ] Horaca de Amán
 [  ] La cueva a los lejos con el trozo de la túnica de Saúl
 [  ] Lanza en la pared del palacio de Saul
+[  ] Tela con animales
