@@ -1,5 +1,5 @@
 [ o ] Arca (ventana en cuarto oscuro)
-[ o ] Mesa con rollos y una estrella por la ventana (magos)
+[ o ] Mesa con rollos y una estrella por la ventana (magos) 
 [ o ] Marchando alrededor de Jericó 
 [ o ] División del mar rojo
 [ o ] El segundo día de la creación.
@@ -33,3 +33,10 @@
 [  ] La cueva a los lejos con el trozo de la túnica de Saúl
 [  ] Lanza en la pared del palacio de Saul
 [  ] Tela con animales
+
+
+PENDIENTES
+3 quitar las cajas
+
+
+Hacer billboards de arboles: agregar en el jordán, playa con pescados
