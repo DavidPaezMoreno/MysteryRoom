@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ecfee207245b0584a9d9199d40abe3f6
+guid: b18da387c44831242ae32154eac48086
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
@@ -7,8 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: P_Clouds_VolumeMat
-    second: {fileID: 2100000, guid: 320228f422f265c4dab7a27cf6000c96, type: 2}
+      name: P_HellfireMat
+    second: {fileID: 2100000, guid: 0e4f36e41c389514984ea6a97a5f741a, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
