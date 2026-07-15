@@ -10,9 +10,9 @@
 [ o ] Lecho del río Jordán con las doce piedras.
 [ o ] El sacrificio de Abrahám 
 [ o ] Tabernáculo/atrio
-[ x ] Casa donde bajaron al amigo.
+[ o ] Casa donde bajaron al amigo.
 [ o ] Espadas vigilando el Edén 
-[ x ] El rico y Lázaro 
+[ o ] El rico y Lázaro 
 [ x ] Angel que se le apareció a Jacob (escalera al cielo)
 [ x ] Horaca de Amán
 [ x ] La cueva a los lejos con el trozo de la túnica de Saúl
