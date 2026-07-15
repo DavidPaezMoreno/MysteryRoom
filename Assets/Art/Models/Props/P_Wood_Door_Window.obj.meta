@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 27643dd7820b83e438cceaabcec8a2cf
+guid: 9c516893bda042f48922caee41c06c2e
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
@@ -7,22 +7,17 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: SimpleHouseMat
-    second: {fileID: 2100000, guid: c627373704e169d49b4c0720df125107, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: WindowsShadowsMat
-    second: {fileID: 2100000, guid: d93284c8d5cc9f0499e07dd538df5ca9, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: WoodCylindersMat
+      name: DoorWoodMat
     second: {fileID: 2100000, guid: e3e1a20afbf0e3349bbaf4beb9935deb, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: WoodFramesMat
+      name: DorrMetalMat
+    second: {fileID: 2100000, guid: 50dc31210f81cc84eae05daa06b61c7f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WindowMat
     second: {fileID: 2100000, guid: e3e1a20afbf0e3349bbaf4beb9935deb, type: 2}
   materials:
     materialImportMode: 2

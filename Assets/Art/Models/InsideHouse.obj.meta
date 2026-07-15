@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 27643dd7820b83e438cceaabcec8a2cf
+guid: 61c53502524d03e40ab79d5f53afecf4
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
@@ -7,23 +7,53 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: SimpleHouseMat
+      name: CarpetMat
+    second: {fileID: 2100000, guid: 4fbb838d51770a542b53799ef6388396, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FloorMat
+    second: {fileID: 2100000, guid: 8f89d039f6cabec44957e4c56a6758b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FramesMat
+    second: {fileID: 2100000, guid: 9dfbea82d7e4d1141baed39292fa8610, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LogsMat
+    second: {fileID: 2100000, guid: 9dfbea82d7e4d1141baed39292fa8610, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OutsideFloorMat
+    second: {fileID: 2100000, guid: 8f89d039f6cabec44957e4c56a6758b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OutsideWallsMat
+    second: {fileID: 2100000, guid: 3d5210e3d65792748b677831e7e7a73d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofMat
+    second: {fileID: 2100000, guid: d3d1c4d7bb1defd48baaece89af420c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofWoodMat
+    second: {fileID: 2100000, guid: e3e1a20afbf0e3349bbaf4beb9935deb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RopesMat
+    second: {fileID: 2100000, guid: d3d1c4d7bb1defd48baaece89af420c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WallsMat
     second: {fileID: 2100000, guid: c627373704e169d49b4c0720df125107, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: WindowsShadowsMat
-    second: {fileID: 2100000, guid: d93284c8d5cc9f0499e07dd538df5ca9, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: WoodCylindersMat
-    second: {fileID: 2100000, guid: e3e1a20afbf0e3349bbaf4beb9935deb, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: WoodFramesMat
-    second: {fileID: 2100000, guid: e3e1a20afbf0e3349bbaf4beb9935deb, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
