@@ -13,13 +13,14 @@
 [ o ] Casa donde bajaron al amigo.
 [ o ] Espadas vigilando el Edén 
 [ o ] El rico y Lázaro 
-[ x ] Angel que se le apareció a Jacob (escalera al cielo)
 [ o ] Horaca de Amán
+[ x ] Apedreación de la mujer adúltera.
 [ x ] La cueva a los lejos con el trozo de la túnica de Saúl
 [ x ] Lanza en la pared del palacio de Saul
 [ x ] Sodoma y gomorra ya destruido (y la estatua de sal)
+[ x ] Joven muerto que se cayó del segundo piso
+[ x ] Angel que se le apareció a Jacob (escalera al cielo)
 [  ] Terraza de David con Betsabé 
-[  ] Joven muerto que se cayó del segundo piso
 [  ] Pedro andando en el mar
 [  ] La tumba vacía
 [  ] El monte Sinaí (desde arriba, perspectiva de Moisés con las tablas agarradas).
