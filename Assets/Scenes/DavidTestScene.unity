@@ -472,6 +472,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RoofParalytic
       objectReference: {fileID: 0}
+    - target: {fileID: 58674469758947751, guid: e8755be98a1167748b3bda6dcccdbbfb, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 836443240586382109, guid: e8755be98a1167748b3bda6dcccdbbfb, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -578,6 +582,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 21ba95147258d8c4e85955b1aa293656, type: 3}
+--- !u!1001 &5184001868486067162
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 359299102990230953, guid: b62cf7bda0445a64c978cca834165028, type: 3}
+      propertyPath: m_Name
+      value: GazaRoad
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617776893468880244, guid: b62cf7bda0445a64c978cca834165028, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617776893468880244, guid: b62cf7bda0445a64c978cca834165028, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617776893468880244, guid: b62cf7bda0445a64c978cca834165028, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -35.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617776893468880244, guid: b62cf7bda0445a64c978cca834165028, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617776893468880244, guid: b62cf7bda0445a64c978cca834165028, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617776893468880244, guid: b62cf7bda0445a64c978cca834165028, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617776893468880244, guid: b62cf7bda0445a64c978cca834165028, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617776893468880244, guid: b62cf7bda0445a64c978cca834165028, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617776893468880244, guid: b62cf7bda0445a64c978cca834165028, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617776893468880244, guid: b62cf7bda0445a64c978cca834165028, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b62cf7bda0445a64c978cca834165028, type: 3}
 --- !u!1001 &5525390951035227065
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -711,3 +772,4 @@ SceneRoots:
   - {fileID: 5525390951035227065}
   - {fileID: 4636092246358298719}
   - {fileID: 937326070983617701}
+  - {fileID: 5184001868486067162}
