@@ -14,6 +14,7 @@
 [ o ] Espadas vigilando el Edén 
 [ o ] El rico y Lázaro 
 [ o ] Horaca de Amán
+[ o ] El camino que desciende a Gaza.
 [ x ] Apedreación de la mujer adúltera.
 [ x ] La cueva a los lejos con el trozo de la túnica de Saúl
 [ x ] Lanza en la pared del palacio de Saul
@@ -32,7 +33,6 @@
 [  ] Plato con la cabeza de Juan el bautista 
 [  ] Columnas de Sansón.
 [  ] Jesús como el jardinero
-[  ] El camino que desciende a Gaza.
 [  ] Tela con animales
 
 
