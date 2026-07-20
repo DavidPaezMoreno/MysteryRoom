@@ -15,7 +15,7 @@
 [ o ] El rico y Lázaro 
 [ o ] Horaca de Amán
 [ o ] El camino que desciende a Gaza.
-[ x ] Apedreación de la mujer adúltera.
+[ o ] Apedreación de la mujer adúltera.
 [ x ] La cueva a los lejos con el trozo de la túnica de Saúl
 [ x ] Lanza en la pared del palacio de Saul
 [ x ] Sodoma y gomorra ya destruido (y la estatua de sal)
