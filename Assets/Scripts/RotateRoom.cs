@@ -10,8 +10,15 @@ public class RotateRoom : MonoBehaviour
 	[Tooltip("Ordered list of transforms to move the object through.")]
 	public Transform[] waypoints;
 
+	[Header("UI")]
 	[Tooltip("Text to display the current waypoint index.")]
 	public TMPro.TextMeshProUGUI indexText;
+	[Tooltip("Text to display the remaining time.")]
+	public TMPro.TextMeshProUGUI timeText;
+	[Tooltip("Time limit to complete the action.")]
+	public float timeLimit = 30f;
+
+	public GameObject timeLimitObstruction;
 
 	[Tooltip("Minimum trigger value to register a press.")]
 	public float triggerThreshold = 0.5f;
@@ -20,6 +27,7 @@ public class RotateRoom : MonoBehaviour
 	public bool loop = true;
 
 	private int currentIndex = 0;
+	private float remainingTime;
     
     private InputAction actionButton;
     private InputAction backButton;
@@ -43,9 +51,14 @@ public class RotateRoom : MonoBehaviour
 		// Randomize the order of waypoints and move to the first one
         if (waypoints == null || waypoints.Length > 0)
         {
-			waypointsRandomized = waypoints.ToList().OrderBy(x => Random.value).ToArray();
+			waypointsRandomized = waypoints.ToList().OrderBy(x => UnityEngine.Random.value).ToArray();
             MoveToIndex(0);
         }
+
+		if(timeLimit <= 0)
+		{
+			timeText.text = "";
+		}
 	}
 
 	private void OnEnable()
@@ -76,6 +89,19 @@ public class RotateRoom : MonoBehaviour
 		if (backPressed)
 		{
 			MovePrevious();
+		}
+
+		if(timeLimit > 0)
+		{
+			remainingTime -= Time.deltaTime;
+			int displaySeconds = Mathf.Max(0, Mathf.FloorToInt(remainingTime));
+			int displayCentiseconds = Mathf.Clamp(Mathf.FloorToInt((remainingTime - displaySeconds) * 100f), 0, 99);
+			timeText.text = $"{displaySeconds:D2}:{displayCentiseconds:D2}";
+
+			if (remainingTime <= 0)
+			{
+				timeLimitObstruction.SetActive(true);
+			}
 		}
 	}
 
@@ -118,5 +144,8 @@ public class RotateRoom : MonoBehaviour
 		//Label the current room index based on the original order of waypoints
 		int currentRoomIndex = System.Array.IndexOf(waypoints, waypointsRandomized[currentIndex]);
 		indexText.text = $"No. {currentRoomIndex + 1}";
+
+		remainingTime = timeLimit;
+		timeLimitObstruction.SetActive(false);
 	}
 }
