@@ -16,9 +16,9 @@
 [ o ] Horaca de Amán
 [ o ] El camino que desciende a Gaza.
 [ o ] Apedreación de la mujer adúltera.
-[ x ] La cueva a los lejos con el trozo de la túnica de Saúl
+[ o ] La cueva a los lejos con el trozo de la túnica de Saúl
 [ x ] Lanza en la pared del palacio de Saul
-[ x ] Sodoma y gomorra ya destruido (y la estatua de sal)
+[ o ] Sodoma y gomorra ya destruido (y la estatua de sal)
 [ x ] Joven muerto que se cayó del segundo piso
 [ x ] Angel que se le apareció a Jacob (escalera al cielo)
 [  ] Terraza de David con Betsabé 
