@@ -205,13 +205,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1812833705}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.008062824, z: -0, w: 0.9999675}
-  m_LocalPosition: {x: -1.3823284, y: 3.5610342, z: 0.20031434}
+  m_LocalRotation: {x: 0, y: 0.75068784, z: 0, w: 0.66065705}
+  m_LocalPosition: {x: 0, y: 1.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: -720.924, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 97.3, z: 0}
 --- !u!114 &1812833709
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -594,6 +594,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GazaRoad
       objectReference: {fileID: 0}
+    - target: {fileID: 359299102990230953, guid: b62cf7bda0445a64c978cca834165028, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2617776893468880244, guid: b62cf7bda0445a64c978cca834165028, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -639,6 +643,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b62cf7bda0445a64c978cca834165028, type: 3}
+--- !u!1001 &5404577753908966835
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6535101619938077636, guid: eac26791f448372478f6c6f572d6f18e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6535101619938077636, guid: eac26791f448372478f6c6f572d6f18e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6535101619938077636, guid: eac26791f448372478f6c6f572d6f18e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6535101619938077636, guid: eac26791f448372478f6c6f572d6f18e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6535101619938077636, guid: eac26791f448372478f6c6f572d6f18e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6535101619938077636, guid: eac26791f448372478f6c6f572d6f18e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6535101619938077636, guid: eac26791f448372478f6c6f572d6f18e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6535101619938077636, guid: eac26791f448372478f6c6f572d6f18e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6535101619938077636, guid: eac26791f448372478f6c6f572d6f18e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6535101619938077636, guid: eac26791f448372478f6c6f572d6f18e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6834635063991946766, guid: eac26791f448372478f6c6f572d6f18e, type: 3}
+      propertyPath: m_Name
+      value: SaulPalace
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: eac26791f448372478f6c6f572d6f18e, type: 3}
 --- !u!1001 &5525390951035227065
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -773,3 +834,4 @@ SceneRoots:
   - {fileID: 4636092246358298719}
   - {fileID: 937326070983617701}
   - {fileID: 5184001868486067162}
+  - {fileID: 5404577753908966835}
