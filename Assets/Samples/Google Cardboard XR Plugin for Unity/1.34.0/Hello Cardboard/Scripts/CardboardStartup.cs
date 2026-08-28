@@ -24,6 +24,9 @@ using UnityEngine;
 /// </summary>
 public class CardboardStartup : MonoBehaviour
 {
+
+    private bool isCardboardMode = false;
+
     /// <summary>
     /// Start is called before the first frame update.
     /// </summary>
@@ -40,6 +43,7 @@ public class CardboardStartup : MonoBehaviour
         {
             Api.ScanDeviceParams();
         }
+        isCardboardMode = Api.HasDeviceParams();
     }
 
     /// <summary>
@@ -47,6 +51,15 @@ public class CardboardStartup : MonoBehaviour
     /// </summary>
     public void Update()
     {
+        if(!isCardboardMode)
+        {
+            // Debug.Log("Not in Cardboard mode, skipping CardboardStartup Update.");
+            return;
+        }else
+        {
+            // Debug.Log("In Cardboard mode, running CardboardStartup Update.");
+        }
+
         if (Api.IsGearButtonPressed)
         {
             Api.ScanDeviceParams();

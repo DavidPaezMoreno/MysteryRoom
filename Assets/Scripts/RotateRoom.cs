@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.InputSystem;
 
 public class RotateRoom : MonoBehaviour
@@ -9,12 +10,17 @@ public class RotateRoom : MonoBehaviour
 
 	[Tooltip("Ordered list of transforms to move the object through.")]
 	public Transform[] waypoints;
+	public BibleRoomNameDatabase roomNameDatabase;
 
 	[Header("UI")]
 	[Tooltip("Text to display the current waypoint index.")]
 	public TMPro.TextMeshProUGUI indexText;
 	[Tooltip("Text to display the remaining time.")]
 	public TMPro.TextMeshProUGUI timeText;
+	[Tooltip("Text to display the current waypoint index for the camera.")]
+	public TMPro.TextMeshProUGUI indexTextCamera;
+	[Tooltip("Text to display the remaining time for the camera.")]
+	public TMPro.TextMeshProUGUI timeTextCamera;
 	[Tooltip("Time limit to complete the action.")]
 	public float timeLimit = 30f;
 
@@ -32,6 +38,8 @@ public class RotateRoom : MonoBehaviour
     private InputAction actionButton;
     private InputAction backButton;
 	public Transform[] waypointsRandomized;
+
+	public UnityEvent onRoomChanged;
 
 	private void Awake()
 	{
@@ -58,6 +66,12 @@ public class RotateRoom : MonoBehaviour
 		if(timeLimit <= 0)
 		{
 			timeText.text = "";
+		}
+
+		if(!StartManager.isCardboardMode)
+		{
+			timeText.gameObject.SetActive(false);
+			indexText.gameObject.SetActive(false);
 		}
 	}
 
@@ -97,15 +111,18 @@ public class RotateRoom : MonoBehaviour
 			int displaySeconds = Mathf.Max(0, Mathf.FloorToInt(remainingTime));
 			int displayCentiseconds = Mathf.Clamp(Mathf.FloorToInt((remainingTime - displaySeconds) * 100f), 0, 99);
 			timeText.text = $"{displaySeconds:D2}:{displayCentiseconds:D2}";
+			timeTextCamera.text = $"{displaySeconds:D2}:{displayCentiseconds:D2}";
 
 			if (remainingTime <= 0)
 			{
+				// Time's up, activate the obstruction and deactivate the current waypoint
 				timeLimitObstruction.SetActive(true);
+				waypointsRandomized[currentIndex].gameObject.SetActive(false);
 			}
 		}
 	}
 
-	private void MoveNext()
+	public void MoveNext()
 	{
 		int target = currentIndex + 1;
 		if (target >= waypoints.Length)
@@ -115,7 +132,7 @@ public class RotateRoom : MonoBehaviour
 		MoveToIndex(target);
 	}
 
-	private void MovePrevious()
+	public void MovePrevious()
 	{
 		int target = currentIndex - 1;
 		if (target < 0)
@@ -123,6 +140,11 @@ public class RotateRoom : MonoBehaviour
 			if (loop) target = waypoints.Length - 1; else return;
 		}
 		MoveToIndex(target);
+	}
+
+	public void ResetRoom()
+	{
+		MoveToIndex(currentIndex);
 	}
 
 	private void MoveToIndex(int targetIndex)
@@ -144,8 +166,34 @@ public class RotateRoom : MonoBehaviour
 		//Label the current room index based on the original order of waypoints
 		int currentRoomIndex = System.Array.IndexOf(waypoints, waypointsRandomized[currentIndex]);
 		indexText.text = $"No. {currentRoomIndex + 1}";
+		indexTextCamera.text = $"No. {currentRoomIndex + 1}";
 
 		remainingTime = timeLimit;
 		timeLimitObstruction.SetActive(false);
+		onRoomChanged?.Invoke();
+	}
+
+	public void ShowRoomName()
+	{
+		if (roomNameDatabase == null)
+		{
+			Debug.LogError("Room name database is not assigned.", this);
+			return;
+		}
+
+		int currentRoomIndex = System.Array.IndexOf(waypoints, waypointsRandomized[currentIndex]);
+		string roomName = roomNameDatabase.GetRoomName(currentRoomIndex + 1, Language.English);
+
+		if (!string.IsNullOrEmpty(roomName))
+		{
+			
+			indexText.text += $" - {roomName}";
+			indexTextCamera.text += $" - {roomName}";
+			Debug.Log($"Current Room Name: {roomName}");
+		}
+		else
+		{
+			Debug.LogWarning($"Room name not found for index {currentRoomIndex + 1}.", this);
+		}
 	}
 }

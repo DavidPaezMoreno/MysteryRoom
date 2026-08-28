@@ -11,7 +11,6 @@ public class StartManager : MonoBehaviour
 
     public void Start()
     {
-        DisableVR();   
     }
 
     public void StartGameWithCardboard()
@@ -38,6 +37,11 @@ public class StartManager : MonoBehaviour
             Debug.LogWarning("Loading image not assigned!", this);
         }
 
+        if(isCardboardMode)
+        {
+            EnableVR();
+        }
+
         // Start async scene load
         AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(sceneName);
         asyncLoad.allowSceneActivation = false;
@@ -61,26 +65,32 @@ public class StartManager : MonoBehaviour
         }
     }
 
-    public void DisableVR()
+    public void EnableVR()
     {
-        StartCoroutine(StopXRSubsystems());
+        StartCoroutine(StartXRSubsystems());
     }
 
-    private IEnumerator StopXRSubsystems()
+    private IEnumerator StartXRSubsystems()
     {
+        Debug.Log("Initializing Cardboard VR...");
+        
         var xrManager = XRGeneralSettings.Instance.Manager;
 
-        if (xrManager.isInitializationComplete)
+        // 1. Only initialize if it hasn't been initialized yet
+        if (!xrManager.isInitializationComplete)
         {
-            // 1. Stop the running XR subsystems (stops rendering & tracking)
-            xrManager.StopSubsystems();
-            yield return null; 
+            yield return xrManager.InitializeLoader();
+        }
 
-            // 2. Completely de-initialize the XR loader
-            xrManager.DeinitializeLoader();
-            yield return null;
-
-            Debug.Log("Cardboard VR successfully disabled. App is now in 2D mode.");
+        // 2. Start the VR subsystems if initialization was successful
+        if (xrManager.activeLoader != null)
+        {
+            xrManager.StartSubsystems();
+            Debug.Log("Cardboard VR successfully enabled! Dual-eye screen active.");
+        }
+        else
+        {
+            Debug.LogError("Failed to initialize Cardboard XR Loader. Check your project settings.");
         }
     }
 }
