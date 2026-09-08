@@ -39,7 +39,7 @@ public class GyroHeadTracking : MonoBehaviour
 
         // 4. Convert the coordinate system from mobile sensor space to Unity world space
         // This remaps the axes and inverts the handedness for a natural look-around feel
-        Quaternion mappedRotation = new Quaternion(-gyroAttitude.x, gyroAttitude.y, gyroAttitude.z, -gyroAttitude.w);
+        Quaternion mappedRotation = new Quaternion(gyroAttitude.x, gyroAttitude.y, -gyroAttitude.z, -gyroAttitude.w);
         
         // 5. Rotate the camera relative to its initial orientation
         transform.rotation = initialRotation * Quaternion.Euler(-90f, 0f, 180f) * mappedRotation;
