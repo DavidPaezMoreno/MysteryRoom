@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: RoomNamesTable_es
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: d543bcf29287a8942bdb03cc940abd42, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 1
+    m_Localized: "Los muros de Jeric\xF3"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2
+    m_Localized: "La prisi\xF3n de Pablo y Silas / La prisi\xF3n de Filipos"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3
+    m_Localized: "El asesinato de S\xEDsara por Jael / La tienda cerca de Cedes,
+      en Cana\xE1n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4
+    m_Localized: "El tabern\xE1culo / El lugar santo"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5
+    m_Localized: El mar Rojo dividido
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6
+    m_Localized: El estudio de los sabios / El observatorio de los magos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7
+    m_Localized: "El r\xEDo Jord\xE1n dividido"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8
+    m_Localized: Los peces asados / Junto al mar de Tiberias
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9
+    m_Localized: El horno de fuego / Babilonia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10
+    m_Localized: "El interior del arca de No\xE9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11
+    m_Localized: "El segundo d\xEDa de la creaci\xF3n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12
+    m_Localized: El sacrificio de Abraham / El monte Moriah
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13
+    m_Localized: "El jard\xEDn de Ed\xE9n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14
+    m_Localized: "El Seol y el seno de Abraham / El rico y L\xE1zaro"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15
+    m_Localized: "El paral\xEDtico bajado por el techo / La casa de Capernaum"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16
+    m_Localized: "La horca de Am\xE1n / Susa, el palacio"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17
+    m_Localized: "El camino a Gaza / El bautismo del et\xEDope"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18
+    m_Localized: "El principio / El Esp\xEDritu de Dios sobre la faz de las aguas"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19
+    m_Localized: "La entrada triunfal / La entrada en Jerusal\xE9n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20
+    m_Localized: La mujer sorprendida en adulterio / Afuera del templo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21
+    m_Localized: "La cueva donde David perdon\xF3 a Sa\xFAl / El desierto de En-gadi"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22
+    m_Localized: La mujer de Lot / Afuera de Sodoma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23
+    m_Localized: "El palacio de Sa\xFAl en Gabaa / Sa\xFAl intenta matar a David"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

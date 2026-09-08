@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: RoomNamesTable_en
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: d543bcf29287a8942bdb03cc940abd42, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 1
+    m_Localized: The Walls of Jericho
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2
+    m_Localized: The Prison of Paul and Silas / The Prison at Philippi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3
+    m_Localized: The Slaying of Sisera by Jael / The Tent near Kedesh in Canaan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4
+    m_Localized: The Tabernacle / The Holy Place
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5
+    m_Localized: The Red Sea Divided
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6
+    m_Localized: The Study of the Wise Men / The Observatory of the Magi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7
+    m_Localized: The Jordan River Divided
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8
+    m_Localized: The Broiled Fishes / By the Sea of Tiberias
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9
+    m_Localized: The Fiery Furnace / Babylon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10
+    m_Localized: The Inside of Noah's Ark
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11
+    m_Localized: The Second Day of Creation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12
+    m_Localized: The Sacrifice of Abraham / Mount Moriah
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13
+    m_Localized: The Garden of Eden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14
+    m_Localized: Sheol and Abraham's Bosom / The Rich Man and Lazarus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15
+    m_Localized: The Paralytic Lowered through the Roof / The House at Capernaum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16
+    m_Localized: Haman's Gallows / Shushan, the Palace
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17
+    m_Localized: The Way to Gaza / The Baptism of the Ethiopian
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18
+    m_Localized: The Beginning / The Spirit of God upon the Face of the Waters
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19
+    m_Localized: The Triumphal Entry / The Entrance into Jerusalem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20
+    m_Localized: The Woman Taken in Adultery / Outside the Temple
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21
+    m_Localized: The Cave Where David Spared Saul / The Wilderness of Engedi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22
+    m_Localized: Lot's Wife / Outside Sodom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23
+    m_Localized: Saul's Palace at Gibeah / Saul Attempts to Kill David
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

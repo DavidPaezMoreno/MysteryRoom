@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: MenuUITable Shared Data
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.SharedTableData
+  m_TableCollectionName: MenuUITable
+  m_TableCollectionNameGuidString: d4a7795d248edd94d9686262b95d188b
+  m_Entries:
+  - m_Id: 29740527616
+    m_Key: menu.visor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 617656119296
+    m_Key: menu.title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19648597487621
+    m_Key: menu.spanish
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19648597487617
+    m_Key: menu.setting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 460004814848
+    m_Key: menu.select
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29765693440
+    m_Key: menu.novisor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19648597487618
+    m_Key: menu.limittime
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19648597487619
+    m_Key: menu.language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19648576516096
+    m_Key: menu.information
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19648597487620
+    m_Key: menu.english
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19648597487616
+    m_Key: menu.developers
+    m_Metadata:
+      m_Items: []
+  - m_Id: 824388310822912
+    m_Key: menu.next
+    m_Metadata:
+      m_Items: []
+  - m_Id: 824421231915008
+    m_Key: menu.previous
+    m_Metadata:
+      m_Items: []
+  - m_Id: 824454572437504
+    m_Key: menu.showname
+    m_Metadata:
+      m_Items: []
+  - m_Id: 824512764211200
+    m_Key: menu.resettimer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 824550827520000
+    m_Key: menu.controldescription
+    m_Metadata:
+      m_Items: []
+  - m_Id: 824601431797760
+    m_Key: menu.controllertitle
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 1625864365011632345
+  references:
+    version: 2
+    RefIds:
+    - rid: 1625864365011632345
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1788286270000

@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: MenuUITable_es
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: d4a7795d248edd94d9686262b95d188b, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 617656119296
+    m_Localized: Cuarto Misterioso
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29740527616
+    m_Localized: Con Visor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29765693440
+    m_Localized: Sin Visor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 460004814848
+    m_Localized: Selecciona
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19648576516096
+    m_Localized: "INFORMACI\xD3N"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19648597487616
+    m_Localized: "Programa desarrollado por David P\xE1ez Moreno y Ricardo P\xE1ez
+      Moreno\n\n2 Corintios 3:5\nNo es que nos consideremos competentes en nosotros
+      mismos. Nuestra capacidad viene de Dios."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19648597487617
+    m_Localized: CONFIGURACIONES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19648597487618
+    m_Localized: "Tiempo l\xEDmite (segundos)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19648597487619
+    m_Localized: Idioma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19648597487620
+    m_Localized: "Ingl\xE9s"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19648597487621
+    m_Localized: "Espa\xF1ol"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 824388310822912
+    m_Localized: Cuarto siguiente
+    m_Metadata:
+      m_Items: []
+  - m_Id: 824421231915008
+    m_Localized: Cuarto anterior
+    m_Metadata:
+      m_Items: []
+  - m_Id: 824454572437504
+    m_Localized: Mostrar nombre de cuarto
+    m_Metadata:
+      m_Items: []
+  - m_Id: 824512764211200
+    m_Localized: Reiniciar contador
+    m_Metadata:
+      m_Items: []
+  - m_Id: 824550827520000
+    m_Localized: 'El control se usa de la siguiente manera:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 824601431797760
+    m_Localized: CONTROL
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
