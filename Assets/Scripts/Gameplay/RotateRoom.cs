@@ -42,6 +42,7 @@ public class RotateRoom : MonoBehaviour
 	public Transform[] waypointsRandomized;
 
 	public UnityEvent onRoomChanged;
+    public UnityEvent onRoomNameShow;
 
 	private void Awake()
 	{
@@ -223,5 +224,6 @@ public class RotateRoom : MonoBehaviour
 		{
 			Debug.LogWarning($"Room name not found for index {currentRoomIndex + 1}.", this);
 		}
+		onRoomNameShow?.Invoke();
 	}
 }

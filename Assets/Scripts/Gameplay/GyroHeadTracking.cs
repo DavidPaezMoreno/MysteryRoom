@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -5,6 +6,8 @@ public class GyroHeadTracking : MonoBehaviour
 {
     private AttitudeSensor attitudeSensor;
     private Quaternion initialRotation;
+
+    private Vector3 paddingRotation = new Vector3(90f, 0f, 0f); // Optional padding rotation for calibration
 
     void Awake()
     {
@@ -42,7 +45,34 @@ public class GyroHeadTracking : MonoBehaviour
         Quaternion mappedRotation = new Quaternion(gyroAttitude.x, gyroAttitude.y, -gyroAttitude.z, -gyroAttitude.w);
         
         // 5. Rotate the camera relative to its initial orientation
-        transform.rotation = initialRotation * Quaternion.Euler(-90f, 0f, 180f) * mappedRotation;
+        transform.rotation = initialRotation * Quaternion.Euler(paddingRotation) * mappedRotation;
+    }
+
+    public void UpdatePaddingRotationX(float newPadding)
+    {
+        paddingRotation += new Vector3(newPadding, 0f, 0f);
+        UpdateDebugRotationPadding();
+    }
+
+    public void UpdatePaddingRotationY(float newPadding)
+    {
+        paddingRotation += new Vector3(0f, newPadding, 0f);
+        UpdateDebugRotationPadding();
+    }
+
+    public void UpdatePaddingRotationZ(float newPadding)
+    {
+        paddingRotation += new Vector3(0f, 0f, newPadding);
+        UpdateDebugRotationPadding();
+    }
+
+    private void UpdateDebugRotationPadding()
+    {
+        TMP_Text debugText = GameObject.Find("DebugRotationPaddingText")?.GetComponent<TMP_Text>();
+        if (debugText != null)
+        {
+            debugText.text = $"X={paddingRotation.x:F2}, Y={paddingRotation.y:F2}, Z={paddingRotation.z:F2}";
+        }
     }
 
     public void RotateCamera(Quaternion rotation)
