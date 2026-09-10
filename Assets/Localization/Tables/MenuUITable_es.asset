@@ -88,6 +88,14 @@ MonoBehaviour:
     m_Localized: CONTROL
     m_Metadata:
       m_Items: []
+  - m_Id: 2999651278811136
+    m_Localized: MOSTRAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3015110397030400
+    m_Localized: LISTA DE CUARTOS
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
